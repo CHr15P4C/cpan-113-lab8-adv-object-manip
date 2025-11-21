@@ -76,3 +76,5 @@ console.log(student.numberCourses());
 //5
 
 //6
+
+//7
