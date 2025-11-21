@@ -80,3 +80,12 @@ console.log(student.numberCourses());
 //7
 //8
 //9
+
+function averageOfArrayReducer(arrayIn) {
+    return arrayIn.reduce(
+        (accumulator, currentValue) => accumulator + (currentValue/arrayIn.length),
+        0,
+    );
+}
+
+averageOfArrayReducer(scores);
