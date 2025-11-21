@@ -88,4 +88,4 @@ function averageOfArrayReducer(arrayIn) {
     );
 }
 
-averageOfArrayReducer(scores);
+console.log(averageOfArrayReducer(scores));
